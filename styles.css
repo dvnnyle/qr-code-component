@@ -56,12 +56,8 @@ margin-bottom: 2rem;
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (min-width: 768px) {
-    body {
-        font-size: 18px;
-    }
-    .container {
-        width: 50%;
-        padding: 2rem;
-    }
+@media (min-width: 500px) {
+.container {
+    width: 500px;
+}
 }
